@@ -1,0 +1,6 @@
+{
+  "name": "Astrologer Sagar Narayan",
+  "description": "Premium landing page for Astrologer Sagar Narayan, providing love and marriage problem solutions, black magic removal, palmistry, and horoscope consultations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
