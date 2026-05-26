@@ -69,10 +69,10 @@ export default function ConsultationForm() {
       planetStrength = [
         { name: 'Venus (Shukra) - Relationship Protection', level: 35, status: 'Weak / Needs Aligning', color: 'bg-rose-500' },
         { name: 'Moon (Chandra) - Emotional Harmony', level: 45, status: 'Disturbed Transition', color: 'bg-indigo-500' },
-        { name: 'Jupiter (Guru) - Support of Elders', level: 70, status: 'Favorable Blessings', color: 'bg-emerald-650' },
+        { name: 'Jupiter (Guru) - Support of Elders', level: 70, status: 'Favorable Blessings', color: 'bg-emerald-600' },
       ];
       astrologicalReading = `Dear ${formData.name}, currently your 7th house of relationships is experiencing a retrograde shadow. Venus, the driver of romantic bonds, is facing temporary friction in your birth chart, explaining the sudden distance or severe love problems you are going through.`;
-      suggestedRemedy = `Guruji Sagar Narayan recommends Venus Aura Cleansing and Venus mantra counts. Sharing this report with Guruji allows him to chart the precise remediation.`;
+      suggestedRemedy = `Sigandur Chowdeshwari Jyothishya Peeta recommends Venus Aura Cleansing and Venus mantra counts. Sharing this report with Guruji allows him to chart the precise remediation.`;
     } else if (cat.includes('black') || cat.includes('evil')) {
       planetStrength = [
         { name: 'Negative Transit Shadows', level: 85, status: 'Active Force', color: 'bg-red-500' },
@@ -80,7 +80,7 @@ export default function ConsultationForm() {
         { name: 'Sun (Surya) - Vital Aura Protective Shield', level: 40, status: 'Blocked', color: 'bg-yellow-500' },
       ];
       astrologicalReading = `Dear ${formData.name}, your birth chart exhibits sudden heavy shadows on the 8th house. This signifies toxic eye (Buri Nazar) or malicious negative forces interfering with your domestic peace, health, and mind. Immediate protective shields are recommended.`;
-      suggestedRemedy = `Guruji Sagar Narayan recommends establishing a sacred energized Copper Protection Shield (Kavach). A detailed horoscope scan can neutralize these dark vibrations permanently.`;
+      suggestedRemedy = `Sigandur Chowdeshwari Jyothishya Peeta recommends establishing a sacred energized Copper Protection Shield (Kavach). A detailed horoscope scan can neutralize these dark vibrations permanently.`;
     } else if (cat.includes('marriage')) {
       planetStrength = [
         { name: 'Jupiter (Guru) - Marital Prosperity', level: 40, status: 'Shani Sade Sati Obstruction', color: 'bg-amber-500' },
@@ -88,7 +88,7 @@ export default function ConsultationForm() {
         { name: 'Venus (Shukra) - Marriage Lustre', level: 60, status: 'Average Energy', color: 'bg-yellow-600' },
       ];
       astrologicalReading = `Dear ${formData.name}, your family Kundali matching index displays delay due to a Mars-Ketu opposition or Manglik influence. This combination creates sudden delays in proposals or unexplained friction right before marriage matches materialize.`;
-      suggestedRemedy = `Sagar Narayan recommends matching horoscope Guna index and planetary fastings on auspicious days to pacify Mars permanently.`;
+      suggestedRemedy = `Sigandur Chowdeshwari Jyothishya Peeta recommends matching horoscope Guna index and planetary fastings on auspicious days to pacify Mars permanently.`;
     } else {
       planetStrength = [
         { name: 'Saturn (Shani) - Career Progress', level: 38, status: 'Astrological Delay Period', color: 'bg-slate-600' },
@@ -96,7 +96,7 @@ export default function ConsultationForm() {
         { name: 'Jupiter (Guru) - Wealth & Peace', level: 65, status: 'Supportive', color: 'bg-emerald-600' },
       ];
       astrologicalReading = `Dear ${formData.name}, your celestial charts are transiting through a crucial karmic cycle. The heavy position of Saturn slows down efforts, leading to career delay or domestic fights.`;
-      suggestedRemedy = `Guruji suggests doing simple Saturday morning prayers and strengthening Jupiter values. Contact Sagar Narayan to identify when this planetary cycle safely transitions.`;
+      suggestedRemedy = `Guruji suggests doing simple Saturday morning prayers and strengthening Jupiter values. Contact Sigandur Chowdeshwari Jyothishya Peeta to identify when this planetary cycle safely transitions.`;
     }
 
     setReport({
@@ -112,12 +112,12 @@ export default function ConsultationForm() {
     const text = `*KUNDALI RAPID REPORT FOR ${formData.name.toUpperCase()}*
 ---------------------------
 🔮 *Zodiac Sign*: ${selectedZodiac?.name || ''} (${selectedZodiac?.symbol || ''})
-❓ *Problem Area*: ${problemTitles[formData.formData?.problemCategory || formData.problemCategory] || formData.problemCategory}
+❓ *Problem Area*: ${problemTitles[formData.problemCategory] || formData.problemCategory}
 📅 *DOB*: ${formData.birthDate || 'Not specified'}
 ⏰ *Birth Time*: ${formData.birthTime || 'Not specified'}
 📍 *Birth Place*: ${formData.birthPlace || 'Not specified'}
 
-🪐 *Astrologer Sagar Narayan Guruji*, I completed your web chart analysis. My dominant problem is: "${formData.details || 'Restoring Peace in My Life'}". Please review my planet transit chart and suggest powerful remedies. Please schedule my consultation call!`;
+🪐 *Astrologer Sigandur Chowdeshwari Jyothishya Peeta Guruji*, I completed your web chart analysis. My dominant problem is: "${formData.details || 'Restoring Peace in My Life'}". Please review my planet transit chart and suggest powerful remedies. Please schedule my consultation call!`;
 
     return `https://wa.me/919845515558?text=${encodeURIComponent(text)}`;
   };
@@ -146,7 +146,7 @@ export default function ConsultationForm() {
         Kundali & Relationship Problem Analyzer
       </h3>
       <p className="text-slate-600 text-sm mt-2 mb-6">
-        Generate your instant planetary transit feedback report. Sagar Narayan will analyze this report to suggest permanent Vedic remedies.
+        Generate your instant planetary transit feedback report. Sigandur Chowdeshwari Jyothishya Peeta will analyze this report to suggest permanent Vedic remedies.
       </p>
 
       <AnimatePresence mode="wait">
@@ -183,7 +183,7 @@ export default function ConsultationForm() {
                   name="zodiacId"
                   value={formData.zodiacId}
                   onChange={handleInputChange}
-                  className="w-full text-sm py-2 px-3 bg-amber-50/50 border border-amber-200/80 rounded-lg text-slate-905 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all font-medium"
+                  className="w-full text-sm py-2 px-3 bg-amber-50/50 border border-amber-200/80 rounded-lg text-slate-900 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all font-medium"
                 >
                   {ZODIAC_SIGNS.map((sign) => (
                     <option key={sign.id} value={sign.id} className="bg-white text-slate-900">
@@ -197,7 +197,7 @@ export default function ConsultationForm() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
                 <label className="block text-xs font-semibold text-amber-900/90 mb-1 flex items-center gap-1.5">
-                  <Calendar className="w-3.5 h-3.5 text-amber-750" /> Birth Date (Optional)
+                  <Calendar className="w-3.5 h-3.5 text-amber-700" /> Birth Date (Optional)
                 </label>
                 <input
                   type="date"
@@ -210,7 +210,7 @@ export default function ConsultationForm() {
 
               <div>
                 <label className="block text-xs font-semibold text-amber-900/90 mb-1 flex items-center gap-1.5">
-                  <Clock className="w-3.5 h-3.5 text-amber-750" /> Birth Time (Optional)
+                  <Clock className="w-3.5 h-3.5 text-amber-700" /> Birth Time (Optional)
                 </label>
                 <input
                   type="time"
@@ -223,7 +223,7 @@ export default function ConsultationForm() {
 
               <div>
                 <label className="block text-xs font-semibold text-amber-900/90 mb-1 flex items-center gap-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-amber-750" /> Birth Place (Optional)
+                  <MapPin className="w-3.5 h-3.5 text-amber-700" /> Birth Place (Optional)
                 </label>
                 <input
                   type="text"
@@ -244,7 +244,7 @@ export default function ConsultationForm() {
                 name="problemCategory"
                 value={formData.problemCategory}
                 onChange={handleInputChange}
-                className="w-full text-sm py-2 px-3 bg-amber-50/50 border border-amber-200/80 rounded-lg text-slate-910 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-505 transition-all font-medium"
+                className="w-full text-sm py-2 px-3 bg-amber-50/50 border border-amber-200/80 rounded-lg text-slate-900 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all font-medium"
               >
                 <option value="love-problems">Love & Relationship Conflicts</option>
                 <option value="breakup-solutions">Breakup & Stop Impending Divorce</option>
@@ -323,7 +323,7 @@ export default function ConsultationForm() {
 
               <div className="flex items-center justify-between border-b border-amber-200 pb-3 mb-4">
                 <div>
-                  <span className="text-[10px] uppercase font-bold tracking-wider text-amber-705 font-mono">ASTROLOGY TRANSIT INDEX</span>
+                  <span className="text-[10px] uppercase font-bold tracking-wider text-amber-700 font-mono">ASTROLOGY TRANSIT INDEX</span>
                   <h4 className="text-lg text-amber-950 font-semibold font-serif">{formData.name}&apos;s Planetary Health</h4>
                 </div>
                 <div className="text-right">
@@ -392,13 +392,13 @@ export default function ConsultationForm() {
                   href={`tel:${ASTROLOGER_CONTACT.phone.replace(/\s+/g, '')}`}
                   className="py-3 px-4 rounded-lg text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-950 border border-amber-400 flex items-center justify-center gap-2 transition duration-150"
                 >
-                  <Phone className="w-4 h-4 text-amber-805" />
+                  <Phone className="w-4 h-4 text-amber-800" />
                   Call +91 98455 15558 Now
                 </a>
 
                 <button
                   onClick={handleReset}
-                  className="py-3 px-4 rounded-lg text-xs font-medium bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-350 flex items-center justify-center gap-2 transition duration-150"
+                  className="py-3 px-4 rounded-lg text-xs font-medium bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 flex items-center justify-center gap-2 transition duration-150"
                 >
                   Configure New Reading Analysis
                 </button>

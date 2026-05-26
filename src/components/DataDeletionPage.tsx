@@ -31,7 +31,7 @@ export function DataDeletionPage({ onBack }: DataDeletionPageProps) {
       <div className="space-y-6">
         <div>
           <span className="text-xs text-amber-800 font-bold uppercase tracking-wider block font-mono">
-            Guruji Sagar Narayan Astrological Centre
+            Sigandur Chowdeshwari Jyothishya Peeta
           </span>
           <h1 className="text-2xl sm:text-3xl font-serif text-slate-900 font-bold tracking-tight mt-1">
             Data Deletion Request
@@ -42,7 +42,7 @@ export function DataDeletionPage({ onBack }: DataDeletionPageProps) {
         </div>
 
         <p className="text-sm font-medium text-slate-600 leading-relaxed pt-2 border-t border-slate-100">
-          At the Divine Astrological Centre of Sagar Narayan, we hold your privacy in the highest regard. We have a straightforward process for you to request the complete deletion of your personal records from our systems.
+          At the Divine Astrological Centre of Sigandur Chowdeshwari Jyothishya Peeta , we hold your privacy in the highest regard. We have a straightforward process for you to request the complete deletion of your personal records from our systems.
         </p>
 
         {/* Content Sections */}

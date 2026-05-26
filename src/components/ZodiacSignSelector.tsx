@@ -19,7 +19,7 @@ export default function ZodiacSignSelector() {
   };
 
   const getWhatsAppQuery = () => {
-    const text = `Hello Astrologer Sagar Narayan, my name is ___________. My Zodiac Sign is ${selectedSign.name} (${selectedSign.symbol}). I read your horoscope prediction. I would like to get a personalized planetary reading and discuss some concerns. Please advise me!`;
+    const text = `Hello Astrologer Sigandur Chowdeshwari Jyothishya Peeta , my name is ___________. My Zodiac Sign is ${selectedSign.name} (${selectedSign.symbol}). I read your horoscope prediction. I would like to get a personalized planetary reading and discuss some concerns. Please advise me!`;
     return `https://wa.me/919845515558?text=${encodeURIComponent(text)}`;
   };
 
@@ -103,7 +103,7 @@ export default function ZodiacSignSelector() {
 
           <div className="md:col-span-3 flex flex-col justify-between space-y-4 relative z-10 border-t md:border-t-0 md:border-l border-amber-100 pt-6 md:pt-0 md:pl-6">
             <div className="space-y-3">
-              <span className="text-xs font-bold text-amber-805 font-mono tracking-widest block uppercase">
+              <span className="text-xs font-bold text-amber-800 font-mono tracking-widest block uppercase">
                 🪐 CURRENT PLANETARY HOROSCOPE TRANSIT
               </span>
               <p className="text-slate-800 text-sm md:text-base leading-relaxed font-serif font-medium">

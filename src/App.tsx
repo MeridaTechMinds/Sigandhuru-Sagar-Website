@@ -21,17 +21,17 @@ function MainPage() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
           </span>
           <span className="text-xs font-bold text-amber-900 tracking-wide">
-            Online Astro Consultations Active: Call/WhatsApp Sagar Narayan
+            Online Astro Consultations Active: Call/WhatsApp Sigandur Chowdeshwari Jyothishya Peeta 
           </span>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-6">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-amber-950 font-bold leading-[1.12] tracking-tight">
             Are You Facing <span className="text-rose-600 underline decoration-rose-500/40 underline-offset-8">Love Concerns</span>, 
-            <br className="hidden sm:inline" /> <span className="text-amber-805">Breakup Pain</span>, or <span className="text-orange-650">Marriage Obstacles</span>?
+            <br className="hidden sm:inline" /> <span className="text-amber-800">Breakup Pain</span>, or <span className="text-orange-600">Marriage Obstacles</span>?
           </h1>
-          <p className="text-slate-705 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed font-medium">
-            Let the powerful planetary alignment insights of <strong className="text-amber-950 font-serif font-bold">Sagar Narayan</strong> restore peace, remove dark forces (black magic), and bring sweet love back into your life.
+          <p className="text-slate-700 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed font-medium">
+            Let the powerful planetary alignment insights of <strong className="text-amber-950 font-serif font-bold">Sigandur Chowdeshwari Jyothishya Peeta </strong> restore peace, remove dark forces (black magic), and bring sweet love back into your life.
           </p>
         </div>
 
@@ -52,25 +52,25 @@ function MainPage() {
             className="w-full sm:w-auto py-4 px-8 rounded-full border border-amber-400 bg-white hover:bg-amber-50 text-amber-950 font-bold flex items-center justify-center gap-2 text-base shadow-sm transition transform hover:-translate-y-0.5"
           >
             <Phone className="w-5 h-5 text-amber-600" />
-            Call Sagar Narayan Immediately
+            Call Sigandur Chowdeshwari Jyothishya Peeta Immediately
           </a>
         </div>
 
         {/* Trust points bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-12 max-w-4xl mx-auto border-t border-amber-250">
-          <div className="p-4 bg-white/80 border border-amber-205 rounded-xl shadow-sm">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-12 max-w-4xl mx-auto border-t border-amber-200">
+          <div className="p-4 bg-white/80 border border-amber-200 rounded-xl shadow-sm">
             <span className="text-amber-700 text-base sm:text-lg font-bold font-mono">100% PRIVATE</span>
             <p className="text-[10px] text-slate-500 mt-1 uppercase font-bold tracking-wider">Confidential consultations</p>
           </div>
-          <div className="p-4 bg-white/80 border border-amber-205 rounded-xl shadow-sm">
+          <div className="p-4 bg-white/80 border border-amber-200 rounded-xl shadow-sm">
             <span className="text-amber-700 text-base sm:text-lg font-bold font-mono">25+ YEARS</span>
             <p className="text-[10px] text-slate-500 mt-1 uppercase font-bold tracking-wider">Vedic wisdom chartings</p>
           </div>
-          <div className="p-4 bg-white/80 border border-amber-205 rounded-xl shadow-sm">
+          <div className="p-4 bg-white/80 border border-amber-200 rounded-xl shadow-sm">
             <span className="text-amber-700 text-base sm:text-lg font-bold font-mono">15,050+</span>
             <p className="text-[10px] text-slate-500 mt-1 uppercase font-bold tracking-wider">Happy clients worldwide</p>
           </div>
-          <div className="p-4 bg-white/80 border border-amber-205 rounded-xl shadow-sm">
+          <div className="p-4 bg-white/80 border border-amber-200 rounded-xl shadow-sm">
             <span className="text-amber-700 text-base sm:text-lg font-bold font-mono">GENUINE REMEDIES</span>
             <p className="text-[10px] text-slate-500 mt-1 uppercase font-bold tracking-wider">Effective Vedic mantras</p>
           </div>
@@ -104,8 +104,8 @@ export default function App() {
               </div>
             </div>
             <div>
-              <p className="font-serif font-bold text-sm tracking-wide text-amber-955">SAGAR NARAYAN</p>
-              <p className="text-[10px] font-mono tracking-widest text-amber-805 font-bold -mt-0.5">DEVINE ASTROLOGER</p>
+              <p className="font-serif font-bold text-sm tracking-wide text-amber-950">Sigandur Chowdeshwari Jyothishya Peeta </p>
+              <p className="text-[10px] font-mono tracking-widest text-amber-800 font-bold -mt-0.5">DIVINE ASTROLOGER</p>
             </div>
           </Link>
 
@@ -122,7 +122,7 @@ export default function App() {
               href={`https://wa.me/919845515558?text=${encodeURIComponent(ASTROLOGER_CONTACT.whatsappText)}`}
               target="_blank"
               rel="noreferrer noopener"
-              className="py-1.5 px-3 rounded-full bg-emerald-500 hover:bg-emerald-450 text-slate-950 text-xs font-bold flex items-center gap-1 transition duration-150 shadow-md"
+              className="py-1.5 px-3 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold flex items-center gap-1 transition duration-150 shadow-md"
             >
               <MessageSquare className="w-3.5 h-3.5 fill-slate-950 text-slate-950" />
               <span className="hidden sm:inline">WhatsApp</span>
@@ -167,17 +167,12 @@ export default function App() {
             {/* Column 1: Brand & Intro */}
             <div className="space-y-4 text-left">
               <div className="flex items-center gap-2">
-                <span className="text-xl">✨</span>
-                <p className="font-serif font-black text-white text-base tracking-wide">PANDIT SAGAR NARAYAN</p>
+                <span className="text-xl">✨</span>PANDIT Surya Narayan
+                <p className="font-serif font-black text-white text-base tracking-wide"></p>
               </div>
               <p className="text-slate-400 text-xs leading-relaxed font-semibold">
                 Vedic Divine Astrological Centre. A legacy of traditional astronomical math, spiritual guidance, and authentic lifestyle energy corrections since 2001. Serving global seekers with absolute truth.
               </p>
-              <div className="pt-2">
-                <span className="px-3 py-1 text-[10px] uppercase font-mono font-bold tracking-widest text-amber-500 bg-amber-500/10 rounded-full border border-amber-500/20 inline-block">
-                  Established 2001
-                </span>
-              </div>
             </div>
 
             {/* Column 2: Spiritual Domains */}
@@ -254,7 +249,7 @@ export default function App() {
           </div>
 
           <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] text-slate-500 font-semibold gap-3 text-center md:text-left">
-            <p>&copy; {new Date().getFullYear()} Astrologer Sagar Narayan. All sacred rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Astrologer Sigandur Chowdeshwari Jyothishya Peeta . All sacred rights reserved.</p>
             <p className="mt-2 md:mt-0 font-bold tracking-wider text-slate-600 font-mono uppercase text-[9px]">
               Confidentially Audited &middot; Spiritual Integrity Pledge
             </p>
@@ -266,7 +261,7 @@ export default function App() {
       <div id="sticky-call-bar" className="fixed bottom-0 left-0 right-0 h-16 bg-white/95 border-t border-amber-200 px-3 py-2 z-50 flex sm:hidden items-center justify-between gap-3 backdrop-blur-md shadow-lg">
         <a
           href={`tel:${ASTROLOGER_CONTACT.phone.replace(/\s+/g, '')}`}
-          className="flex-1 h-full rounded-xl bg-amber-50 border border-amber-400 text-amber-955 flex items-center justify-center gap-1.5 text-xs font-bold px-2"
+          className="flex-1 h-full rounded-xl bg-amber-50 border border-amber-400 text-amber-950 flex items-center justify-center gap-1.5 text-xs font-bold px-2"
         >
           <Phone className="w-4 h-4 text-amber-600 animate-bounce" />
           Call Guruji

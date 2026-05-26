@@ -17,11 +17,11 @@ export function DedicatedPolicyPage({ type, onBack }: DedicatedPolicyPageProps) 
           title: 'Terms & Conditions',
           subtitle: 'Astrological Consulting & Services Agreement',
           effectiveDate: 'Effective Date: May 25, 2026',
-          introduction: 'Welcome to terms and conditions governing the astrological services, calculations, and consultations provided by Pandit Sagar Narayan. Please read this document before seeking consultations.',
+          introduction: 'Welcome to terms and conditions governing the astrological services, calculations, and consultations provided by Pandit Surya Narayan. Please read this document before seeking consultations.',
           sections: [
             {
               heading: '1. Traditional Methodology of Astrological Readings',
-              content: 'All birth chart evaluations (Janam Kundali), transit calculations, planetary alignments, and personalized charts offered by Guruji Sagar Narayan are guided by calculations from traditional Vedic scriptures. Astrology is a spiritual and science-based interpretation metric aligning cosmic planetary positions to human traits. Because life transits involve complex human variables, individual results and advice remain subject to the client’s private faith and spiritual efforts.'
+              content: 'All birth chart evaluations (Janam Kundali), transit calculations, planetary alignments, and personalized charts offered by Sigandur Chowdeshwari Jyothishya Peeta are guided by calculations from traditional Vedic scriptures. Astrology is a spiritual and science-based interpretation metric aligning cosmic planetary positions to human traits. Because life transits involve complex human variables, individual results and advice remain subject to the client’s private faith and spiritual efforts.'
             },
             {
               heading: '2. Disclaimer of Professional Advice',
@@ -33,7 +33,7 @@ export function DedicatedPolicyPage({ type, onBack }: DedicatedPolicyPageProps) 
             },
             {
               heading: '4. Sacred Code of Client Confidentiality',
-              content: 'All personal background narratives, family relationship hardships, distress logs, or palm photos shared with Astrologer Sagar Narayan via calls, text, or WhatsApp chats are governed under total sacred confidentiality. No detail, personal coordinates, or conversation record will ever be shared, publicized, or sold to third parties.'
+              content: 'All personal background narratives, family relationship hardships, distress logs, or palm photos shared with Astrologer Sigandur Chowdeshwari Jyothishya Peeta via calls, text, or WhatsApp chats are governed under total sacred confidentiality. No detail, personal coordinates, or conversation record will ever be shared, publicized, or sold to third parties.'
             },
             {
               heading: '5. Appointment Cancellation Policies',
@@ -55,7 +55,7 @@ export function DedicatedPolicyPage({ type, onBack }: DedicatedPolicyPageProps) 
             },
             {
               heading: '2. How and Why This Data is Used',
-              content: 'Your temporal data variables are used solely to locate planetary placements: identifying the houses of Jupiter, Saturn, Rahu, and Ketu inside your Janam Kundali, calculating romantic matches, and preparing direct text templates on WhatsApp to contact Guruji Sagar Narayan seamlessly.'
+              content: 'Your temporal data variables are used solely to locate planetary placements: identifying the houses of Jupiter, Saturn, Rahu, and Ketu inside your Janam Kundali, calculating romantic matches, and preparing direct text templates on WhatsApp to contact Sigandur Chowdeshwari Jyothishya Peeta seamlessly.'
             },
             {
               heading: '3. Strict Zero-Data Sales Policy',
@@ -67,7 +67,7 @@ export function DedicatedPolicyPage({ type, onBack }: DedicatedPolicyPageProps) 
             },
             {
               heading: '5. Technical Security and Storage',
-              content: 'All birth charts and custom messages are handled over secure encrypted channels. Access is restricted strictly to Sagar Narayan and authorized assistants who maintain a spiritual confidentiality oath.'
+              content: 'All birth charts and custom messages are handled over secure encrypted channels. Access is restricted strictly to Sigandur Chowdeshwari Jyothishya Peeta and authorized assistants who maintain a spiritual confidentiality oath.'
             }
           ]
         };
@@ -126,7 +126,7 @@ export function DedicatedPolicyPage({ type, onBack }: DedicatedPolicyPageProps) 
       <div className="space-y-6">
         <div>
           <span className="text-xs text-amber-800 font-bold uppercase tracking-wider block font-mono">
-            Guruji Sagar Narayan Astrological Centre
+            Sigandur Chowdeshwari Jyothishya Peeta
           </span>
           <h1 className="text-2xl sm:text-3xl font-serif text-slate-900 font-bold tracking-tight mt-1">
             {documentContent.title}

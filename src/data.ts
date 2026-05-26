@@ -1,11 +1,11 @@
 import { Service, ZodiacSign, Testimonial } from './types';
 
 export const ASTROLOGER_CONTACT = {
-  name: 'Sagar Narayan',
+  name: 'Sigandur Chowdeshwari Jyothishya Peeta ',
   phone: '+91 98455 15558',
   whatsappUrl: 'https://wa.me/919845515558',
-  whatsappText: 'Hello Guruji Sagar Narayan, I read about your powerful astrologer services and I am bringing my problem to you for spiritual guidance. Please help me.',
-  address: 'Sagar Astrological Center, Bengaluru, Karnataka, India',
+  whatsappText: 'Hello Guruji Sigandur Chowdeshwari Jyothishya Peeta , I read about your powerful astrologer services and I am bringing my problem to you for spiritual guidance. Please help me.',
+  address: 'Sigandur Chowdeshwari Jyothishya Peeta Center, Bengaluru, Karnataka, India',
 };
 
 export const SERVICES: Service[] = [
@@ -20,7 +20,7 @@ export const SERVICES: Service[] = [
   {
     id: 'breakup-solutions',
     title: 'Breakup & Divorce Problem',
-    description: 'Do you want to stop an impending divorce or bring back an ex-lover? Guruji Sagar Narayan specializes in resolving severe breakups and restoring broken emotional bonds.',
+    description: 'Do you want to stop an impending divorce or bring back an ex-lover? Sigandur Chowdeshwari Jyothishya Peeta specializes in resolving severe breakups and restoring broken emotional bonds.',
     iconName: 'HeartCrack',
     category: 'love',
     remedyHint: 'Rapprochement mantras and relationship-healing planetary prayers.'
@@ -76,7 +76,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Mars',
     element: 'Fire',
     trait: 'Passionate, energetic, and natural-born leaders, but sometimes prone to sudden anger or impulsive decision-making.',
-    prediction: 'Under Mars\' direct transition, sudden obstacles might arise in your love or business life. Practicing patience and conducting a Mars alignment remedy through Sagar Narayan will remove delays.'
+    prediction: 'Under Mars\' direct transition, sudden obstacles might arise in your love or business life. Practicing patience and conducting a Mars alignment remedy through Sigandur Chowdeshwari Jyothishya Peeta will remove delays.'
   },
   {
     id: 'taurus',
@@ -86,7 +86,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Venus',
     element: 'Earth',
     trait: 'Reliable, stable, and deeply loving, but highly stubborn and resistant to change in relationships.',
-    prediction: 'Venus suggests a shift in how you express your true desires. Sagar Narayan offers powerful relationship balancing to resolve stubborn distance with your partner.'
+    prediction: 'Venus suggests a shift in how you express your true desires. Sigandur Chowdeshwari Jyothishya Peeta offers powerful relationship balancing to resolve stubborn distance with your partner.'
   },
   {
     id: 'gemini',
@@ -96,7 +96,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Mercury',
     element: 'Air',
     trait: 'Expressive, highly intellectual, and adaptable, but struggles with confusion, dual minds, and anxiety.',
-    prediction: 'Mercury influence could create minor misunderstandings. Guruji Sagar Narayan recommends a speech-clarity and destiny-strengthening remedy to secure family support.'
+    prediction: 'Mercury influence could create minor misunderstandings. Sigandur Chowdeshwari Jyothishya Peeta recommends a speech-clarity and destiny-strengthening remedy to secure family support.'
   },
   {
     id: 'cancer',
@@ -116,7 +116,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Sun',
     element: 'Fire',
     trait: 'Generous, proud, loyal, and possessive, with high ego that sometimes creates partner and marriage friction.',
-    prediction: 'Ego conflicts are threatening a critical partnership or family bond. A Sun-harmonizing ritual with Sagar Narayan can bring genuine sweet companionship back.'
+    prediction: 'Ego conflicts are threatening a critical partnership or family bond. A Sun-harmonizing ritual with Sigandur Chowdeshwari Jyothishya Peeta can bring genuine sweet companionship back.'
   },
   {
     id: 'virgo',
@@ -126,7 +126,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Mercury',
     element: 'Earth',
     trait: 'Analytical, caring, and detail-oriented, but incredibly overcritical of themselves and their spouse.',
-    prediction: 'A perfect time to resolve longstanding property or domestic disputes. A quick consultation with Sagar Narayan will clarify confusing issues.'
+    prediction: 'A perfect time to resolve longstanding property or domestic disputes. A quick consultation with Sigandur Chowdeshwari Jyothishya Peeta will clarify confusing issues.'
   },
   {
     id: 'libra',
@@ -136,7 +136,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Venus',
     element: 'Air',
     trait: 'Diplomatic, charming, and peaceful, but struggles immensely with decision-making and relationship breakups.',
-    prediction: 'A significant transition awaits your marriage or relationship. Harness the blessing of Venus by seeking Sagar Narayan\'s personalized matching advice.'
+    prediction: 'A significant transition awaits your marriage or relationship. Harness the blessing of Venus by seeking Sigandur Chowdeshwari Jyothishya Peeta \'s personalized matching advice.'
   },
   {
     id: 'scorpio',
@@ -146,7 +146,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Pluto & Mars',
     element: 'Water',
     trait: 'Intense, secretive, highly protective, and passionate, but vulnerable to extreme jealousy, bad vibes, or dark energy.',
-    prediction: 'Unseen opposing forces are affecting your inner peace. Protect your career and relationship from evil eyes with Sagar Narayan\'s potent protective talismans.'
+    prediction: 'Unseen opposing forces are affecting your inner peace. Protect your career and relationship from evil eyes with Sigandur Chowdeshwari Jyothishya Peeta \'s potent protective talismans.'
   },
   {
     id: 'sagittarius',
@@ -166,7 +166,7 @@ export const ZODIAC_SIGNS: ZodiacSign[] = [
     rulingPlanet: 'Saturn',
     element: 'Earth',
     trait: 'Disciplined, ambitious, and patient, but experiences deep delays, slow progress, and emotional isolation.',
-    prediction: 'Saturn\'s powerful position indicates hard changes or Shani Sade Sati challenges. Let Sagar Narayan perform the sacred Shani pacification to bring rapid, stress-free relief.'
+    prediction: 'Saturn\'s powerful position indicates hard changes or Shani Sade Sati challenges. Let Sigandur Chowdeshwari Jyothishya Peeta perform the sacred Shani pacification to bring rapid, stress-free relief.'
   },
   {
     id: 'aquarius',
@@ -206,7 +206,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: 'Mumbai (via Call)',
     issue: 'Severe Relationship Breakup & Pain',
     resolution: 'Venus (Shukra) harmony rituals & counseling',
-    message: 'My partner suddenly blocked me everywhere after a minor misunderstanding, and I was in deep despair. Astrologer Sagar Narayanji analyzed my profile, assured me it was a passing planet transit, and did an energy healing prayer. After just 3 weeks, my partner reached out, apologized, and we are back together.',
+    message: 'My partner suddenly blocked me everywhere after a minor misunderstanding, and I was in deep despair. Astrologer Sigandur Chowdeshwari Jyothishya Peeta ji analyzed my profile, assured me it was a passing planet transit, and did an energy healing prayer. After just 3 weeks, my partner reached out, apologized, and we are back together.',
     stars: 5,
   },
   {
@@ -215,19 +215,19 @@ export const TESTIMONIALS: Testimonial[] = [
     location: 'Mysuru',
     issue: 'Unseen Black Magic Symptoms & Health Drain',
     resolution: 'Negative energy cleansing & copper protective kavach',
-    message: 'I was suffering from severe professional downfalls and sudden health drops that doctors couldn\'t cure. Pandit Sagar Narayan identified strong jealous negative eyes (disturbing dark energies) and did a purification process. Life returned to complete normalcy instantly. Deeply grateful!',
+    message: 'I was suffering from severe professional downfalls and sudden health drops that doctors couldn\'t cure. Pandit Sigandur Chowdeshwari Jyothishya Peeta identified strong jealous negative eyes (disturbing dark energies) and did a purification process. Life returned to complete normalcy instantly. Deeply grateful!',
     stars: 5,
   },
 ];
 
 export const FAQ_ITEMS = [
   {
-    question: 'How does Astrologer Sagar Narayan perform the analysis?',
+    question: 'How does Astrologer Sigandur Chowdeshwari Jyothishya Peeta perform the analysis?',
     answer: 'Guruji uses an intricate combination of calculations based on Vedic Astrology, matching your birth dates (Janam Kundali), transit of beneficial planets (Venus, Jupiter, Sun), and deep hand line analysis (Palmistry).'
   },
   {
     question: 'Can I consult if I do not have my exact birth time?',
-    answer: 'Yes! If you do not have your exact birth time, Sagar Narayan utilizes Face Reading, Palmistry (Hand lines), and Prashna Kundali (Current planetary alignments of the question hour) to make accurate predictions.'
+    answer: 'Yes! If you do not have your exact birth time, Sigandur Chowdeshwari Jyothishya Peeta utilizes Face Reading, Palmistry (Hand lines), and Prashna Kundali (Current planetary alignments of the question hour) to make accurate predictions.'
   },
   {
     question: 'Are my personal details and problems kept confidential?',
